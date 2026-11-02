@@ -2,7 +2,13 @@
   "enabledPlugins": {
     "superpowers@superpowers-dev": true,
     "ponytail@ponytail": true,
-    "headroom@headroom-marketplace": true
+    "headroom@headroom-marketplace": true,
+    "context7@claude-plugins-official": true,
+    "claude-md-management@claude-plugins-official": true,
+    "security-guidance@claude-plugins-official": true,
+    "feature-dev@claude-plugins-official": true,
+    "pr-review-toolkit@claude-plugins-official": true,
+    "playwright@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
     "superpowers-dev": {
@@ -21,6 +27,12 @@
       "source": {
         "source": "github",
         "repo": "headroomlabs-ai/headroom"
+      }
+    },
+    "claude-plugins-official": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official"
       }
     }
   }
